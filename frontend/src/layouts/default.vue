@@ -3,6 +3,7 @@
   <v-app>
     <v-main>
       <router-view />
+      <FAB />
     </v-main>
 
     <AppFooter />
