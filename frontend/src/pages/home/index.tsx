@@ -1,11 +1,11 @@
 //hooks
-import SetPageTitle from '../../hooks/usePageTitle'
+import usePageTitles from '../../hooks/usePageTitles'
 
 //css
 import './style.css'
 
 function Home() {
-  SetPageTitle('Home');
+  usePageTitles()
 
   return (
     <>
@@ -17,7 +17,7 @@ function Home() {
         main
       </main>
 
-      <footer>
+      <footer>  
         footer
       </footer>
     </>

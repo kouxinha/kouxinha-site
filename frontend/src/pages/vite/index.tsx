@@ -1,14 +1,20 @@
+//react
 import { useState } from 'react'
 
-import SetPageTitle from '../../hooks/usePageTitle'
+//hooks
+import usePageTitles from '../../hooks/usePageTitles'
 
+//images
 import reactLogo from '../../assets/react.svg'
 import viteLogo from '/vite.svg'
+
+//css
 import './style.css'
 
 function Vite() {
-  SetPageTitle('Vite');
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+  
+  usePageTitles()
 
   return (
     <>
